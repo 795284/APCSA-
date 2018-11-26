@@ -9,8 +9,8 @@ public class Runner
 {
     static void main(String args[]){
         int boy, girl;
-        boy = 18;
-        girl = 23;
+        boy = 21;
+        girl = 1;
         
         if(boy>20 || girl <2){
             System.out.println("u is right age");
