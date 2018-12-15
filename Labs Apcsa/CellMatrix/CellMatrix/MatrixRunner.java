@@ -7,9 +7,11 @@
 public class MatrixRunner{
     
     public static void main(){
-      CellMatrix cm = new CellMatrix(3, 4);  
+      CellMatrix cm = new CellMatrix(3, 4);   
       cm.printMatrix();
-      
-      cm.loadMatrix();
-    }
-}
+      cm.loadMatrix(); 
+      cm.printMatrix(); 
+      cm.getGreatestNeighbors(); 
+    } 
+} 
+   
